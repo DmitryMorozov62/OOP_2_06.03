@@ -15,12 +15,22 @@ public class Main {
 
 
         ServiceStation station = new ServiceStationForDirector();
-        station.check(car);
-        station.check(car2);
-        station.check(bicycle);
-        station.check(bicycle2);
-        station.check(truck);
-        station.check(truck2);
 
+        printReport(station,car);
+        printReport(station,car2);
+        printReport(station,bicycle);
+        printReport(station,bicycle2);
+        printReport(station,truck);
+        printReport(station,truck2);
+
+    }
+    private static void printReport(ServiceStation serviceStation, Car car){
+        serviceStation.check(car);
+    }
+    private static void printReport(ServiceStation serviceStation, Bicycle bicycle){
+        serviceStation.check(bicycle);
+    }
+    private static void printReport(ServiceStation serviceStation, Truck truck){
+        serviceStation.check(truck);
     }
 }
