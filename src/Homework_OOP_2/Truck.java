@@ -1,6 +1,6 @@
 package Homework_OOP_2;
 
-public class Truck extends Transport implements ChangeableTires,CheckableEngine,CheckableTrailer{
+public class Truck extends Transport implements CheckableEngine,CheckableTrailer{
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);

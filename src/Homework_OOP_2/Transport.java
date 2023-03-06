@@ -1,6 +1,6 @@
 package Homework_OOP_2;
 
-public abstract class Transport {
+public abstract class Transport implements ChangeableTyre{
     private String modelName;
     private int wheelsCount;
 
@@ -24,4 +24,5 @@ public abstract class Transport {
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
     }
+
 }

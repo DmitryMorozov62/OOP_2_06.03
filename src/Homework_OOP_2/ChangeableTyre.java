@@ -1,5 +1,5 @@
 package Homework_OOP_2;
 
-public interface ChangeableTires {
+public interface ChangeableTyre {
     public void updateTyre();
 }
