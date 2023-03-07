@@ -5,8 +5,7 @@ public class ServiceStationForDirector implements ServiceStation {
     @Override
     public void check(Transport transport) {
         checkTransport(transport);
-        transport.checkEngine();
-        transport.checkTrailer();
+
     }
 
     private void checkTransport(Transport transport) {
@@ -14,5 +13,7 @@ public class ServiceStationForDirector implements ServiceStation {
         for (int i = 0; i < transport.getWheelsCount(); i++) {
             transport.updateTyre();
         }
+        transport.checkEngine();
+        transport.checkTrailer();
     }
 }
