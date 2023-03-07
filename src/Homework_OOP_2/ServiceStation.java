@@ -1,10 +1,6 @@
 package Homework_OOP_2;
 
 public interface ServiceStation {
-    void check(Car car);
-
-    void check(Bicycle bicycle);
-
-    void check(Truck truck);
+    void check(Transport transport);
 
 }

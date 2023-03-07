@@ -3,21 +3,10 @@ package Homework_OOP_2;
 public class ServiceStationForDirector implements ServiceStation {
 
     @Override
-    public void check(Car car) {
-        checkTransport(car);
-        car.checkEngine();
-    }
-
-    @Override
-    public void check(Bicycle bicycle) {
-        checkTransport(bicycle);
-    }
-
-    @Override
-    public void check(Truck truck) {
-        checkTransport(truck);
-        truck.checkEngine();
-        truck.checkTrailer();
+    public void check(Transport transport) {
+        checkTransport(transport);
+        transport.checkEngine();
+        transport.checkTrailer();
     }
 
     private void checkTransport(Transport transport) {

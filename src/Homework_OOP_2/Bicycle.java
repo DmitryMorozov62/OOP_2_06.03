@@ -6,7 +6,10 @@ public class Bicycle extends Transport {
     }
 
     @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку на велосипеде");
+    public void checkEngine() {
+    }
+
+    @Override
+    public void checkTrailer() {
     }
 }
