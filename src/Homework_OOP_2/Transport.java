@@ -27,16 +27,14 @@ public abstract class Transport implements CheckableTyre, CheckableEngine, Check
 
     @Override
     public void updateTyre() {
-        System.out.println("Меняем колесо");
+        System.out.println("Замена шины");
     }
 
     @Override
     public void checkEngine() {
-        System.out.println("Проверяем двигатель");
     }
 
     @Override
     public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
     }
 }

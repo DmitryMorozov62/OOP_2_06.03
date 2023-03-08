@@ -7,6 +7,7 @@ public class Car extends Transport {
     }
 
     @Override
-    public void checkTrailer() {
+    public void checkEngine() {
+        System.out.println("Проверяем двигатель");
     }
 }

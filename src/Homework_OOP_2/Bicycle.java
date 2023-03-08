@@ -5,11 +5,4 @@ public class Bicycle extends Transport {
         super(modelName, wheelsCount);
     }
 
-    @Override
-    public void checkEngine() {
-    }
-
-    @Override
-    public void checkTrailer() {
-    }
 }
