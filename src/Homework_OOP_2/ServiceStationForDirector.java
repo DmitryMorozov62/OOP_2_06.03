@@ -5,7 +5,6 @@ public class ServiceStationForDirector implements ServiceStation {
     @Override
     public void check(Transport transport) {
         checkTransport(transport);
-
     }
 
     private void checkTransport(Transport transport) {
