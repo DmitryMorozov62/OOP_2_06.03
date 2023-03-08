@@ -24,13 +24,7 @@ public class Main {
         printReport(station,truck2);
 
     }
-    private static void printReport(ServiceStation serviceStation, Car car){
-        serviceStation.check(car);
-    }
-    private static void printReport(ServiceStation serviceStation, Bicycle bicycle){
-        serviceStation.check(bicycle);
-    }
-    private static void printReport(ServiceStation serviceStation, Truck truck){
-        serviceStation.check(truck);
+    private static void printReport(ServiceStation serviceStation, Transport transport){
+        serviceStation.check(transport);
     }
 }

@@ -1,6 +1,6 @@
 package Homework_OOP_2;
 
-public abstract class Transport implements ChangeableTyre,CheckableEngine,CheckableTrailer{
+public abstract class Transport {
     private String modelName;
     private int wheelsCount;
 
@@ -25,17 +25,17 @@ public abstract class Transport implements ChangeableTyre,CheckableEngine,Checka
         this.wheelsCount = wheelsCount;
     }
 
-    @Override
+
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
 
-    @Override
+
     public void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
 
-    @Override
+
     public void checkTrailer() {
             System.out.println("Проверяем прицеп");
     }
