@@ -1,6 +1,6 @@
-import Homework_OOP_2.*;
+package Homework_OOP_2;
 
-public class Main {
+public class Test {
     public static void main(String[] args) {
         Car car = new Car("car1",4);
         Car car2 = new Car("car2",4);
