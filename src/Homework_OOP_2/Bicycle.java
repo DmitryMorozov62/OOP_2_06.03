@@ -7,6 +7,6 @@ public class Bicycle extends WheeledTransport {
 
     @Override
     public void service(WheeledTransport transport) {
-        checkTransport(transport);
+        super.checkTransport(transport);
     }
 }
