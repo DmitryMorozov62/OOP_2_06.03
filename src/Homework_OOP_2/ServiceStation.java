@@ -1,6 +1,7 @@
 package Homework_OOP_2;
 
-public interface ServiceStation {
-    void check(Transport transport);
-
+public class ServiceStation {
+    public  void check(WheeledTransport transport) {
+        transport.service(transport);
+    }
 }

@@ -14,7 +14,7 @@ public class Test {
         Bicycle bicycle2 = new Bicycle("bicycle2",2);
 
 
-        ServiceStation station = new ServiceStationForDirector();
+        ServiceStation station = new ServiceStation();
 
         printReport(station,car);
         printReport(station,car2);
@@ -24,7 +24,7 @@ public class Test {
         printReport(station,truck2);
 
     }
-    private static void printReport(ServiceStation serviceStation, Transport transport){
-        serviceStation.check(transport);
+    private static void printReport(ServiceStation station, WheeledTransport transport){
+        station.check(transport);
     }
 }
