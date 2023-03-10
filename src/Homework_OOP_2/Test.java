@@ -24,7 +24,7 @@ public class Test {
         printReport(station,truck2);
 
     }
-    private static void printReport(ServiceStation station, WheeledTransport transport){
+    private static void printReport(ServiceStation station, Transport transport){
         station.check(transport);
     }
 }

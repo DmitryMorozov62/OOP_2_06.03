@@ -9,8 +9,8 @@ public class Truck extends MotorTransport {
         System.out.println("Проверяем прицеп");
     }
     @Override
-    public void service(WheeledTransport transport) {
-        super.checkTransport(transport);
+    public void service(Transport transport) {
+        super.checkTransport((WheeledTransport) transport);
         super.checkEngine();
         checkTrailer();
     }

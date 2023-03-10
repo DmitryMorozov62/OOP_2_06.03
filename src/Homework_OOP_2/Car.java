@@ -6,8 +6,8 @@ public class Car extends MotorTransport {
     }
 
     @Override
-    public void service(WheeledTransport transport) {
-        super.checkTransport(transport);
+    public void service(Transport transport) {
+        super.checkTransport((WheeledTransport) transport);
         super.checkEngine();
     }
 }

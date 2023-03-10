@@ -1,7 +1,7 @@
 package Homework_OOP_2;
 
 public class ServiceStation {
-    public  void check(WheeledTransport transport) {
+    public  void check(Transport transport) {
         transport.service(transport);
     }
 }
